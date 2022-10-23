@@ -1,0 +1,59 @@
+.about-emotion-section {
+  font-family: "Playfair Display",serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+  &__title {
+    font-size: 32px;
+  }
+
+  &__img-wrapper {
+    max-width: 230px;
+    margin-bottom: -20px;
+  }
+
+  &__img {
+    display: block;
+  }
+
+  &__paragraphs {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 28px;
+
+    &:before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 4px;
+      height: 100%;
+      content: "";
+      display: block;
+
+      background-color: ghostwhite;
+      box-shadow: 0 0 8px 2px ghostwhite;
+      border-radius: 10px;
+    }
+  }
+
+  &__paragraph {
+    font-size: 25px;
+    line-height: 33px;
+    position: relative;
+    display: block;
+    margin-bottom: 28px;
+
+    &:before {
+      position: absolute;
+      left: -54px;
+      top: -12px;
+      width: 16px;
+      height: 16px;
+      content: url("../../assets/icons/white-dot.png");
+      display: block;
+    }
+  }
+}

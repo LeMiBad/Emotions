@@ -1,73 +1,35 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <img src="client/public/brain.png" alt="human-brain-capabilities" height="230" />
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Команда [Growth-Teams](http://growth-teams.ru)
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+### Дневник Эмоций
 
-## Description
+Мы предлагаем первый в России сервис для отслеживания ваших эмоций. Он базируется на искусственном интеллекте, который считывает эмоции по видео и определяет ваше настроение.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Дневник эмоций определяет ваше настроение за день, за последнюю неделю, месяц или год, анализирует эмоции и составляет для вас аналитику эмоционального состояния.
 
-## Installation
+Мы сделали не просто сервис-дневник. Мы создали новый инструмент для улучшения качества вашей жизни. Аналитику и другие данные по своим эмоциям вы можете отправлять не только друзьям и близким, но и своему психологу, который на основе этих данных сможет более точно оценить ваше здоровье.
 
-```bash
-$ npm install
-```
+### Стек
 
-## Running the app
+<div>
+  <div>
+    <img alt="Node.js" src="https://img.shields.io/badge/-Node.JS-43853d?style=for-the-badge&logo=Node.js&logoColor=white" />
+    <img alt="NestJS" src="https://img.shields.io/badge/-Nest-ed2945?style=for-the-badge&logo=NestJS&logoColor=white" />
+    <img alt="NestJS" src="https://img.shields.io/badge/-Postgres-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  </div>
+  <div>
+    <img alt="ReactJS" src="https://img.shields.io/badge/-React-353535?style=for-the-badge&logo=react&logoColor=white" />
+    <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+    <img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" />
+    <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-235a96?style=for-the-badge&logo=typescript&logoColor=white" />
+  </div>
+</div>
 
-```bash
-# development
-$ npm run start
+### Запуск
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+1. `npm install` (node v14)
+2. `npm start`
+3. Перейти на http://localhost:4001/

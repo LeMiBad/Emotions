@@ -1,0 +1,71 @@
+.hexagon {
+  margin-top: 60px;
+  padding: 40px 0;
+  margin-bottom: 60px;
+  img {
+    display: block;
+  }
+
+  &__content {
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  &__dot-wrapper {
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+
+  &__text {
+    position: absolute;
+    font-family: "Playfair Display",serif;
+
+    &_neutral {
+      left: 50%;
+      top: -28px;
+      transform: translateX(-50%);
+    }
+
+    &_angry {
+      left: calc(100% + 8px);
+      top: 36px;
+    }
+
+    &_surprise {
+      left: calc(100% + 8px);
+      top: calc(50% + 40px);
+    }
+
+    &_fear {
+      top: calc(100% + 8px);
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    &_happy {
+      right: calc(100% - 16px);
+      top: calc(50% + 40px);
+      transform: translateX(-50%);
+    }
+
+    &_sad {
+      right: calc(100% - 16px);
+      top: 36px;
+      transform: translateX(-50%);
+    }
+  }
+}

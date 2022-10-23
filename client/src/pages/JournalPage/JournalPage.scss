@@ -1,0 +1,74 @@
+.journal-page {
+  min-height: 100vh;
+  width: 100%;
+  padding: 0;
+  max-width: 450px;
+
+  &__video {
+    max-width: 800px;
+    min-height: 600px;
+    margin: 0 auto
+  }
+
+  &__btnz {
+    border: 0;
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  &__h1,
+  &__h3 {
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    padding: 0 36px;
+  }
+
+  &__h1 {
+    font-size: 33px;
+    text-align: center;
+    line-height: 37px;
+  }
+
+  &__h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  &__btn {
+    left: 50%;
+    transform: translateX(calc(-50% - 13px));
+    position: absolute;
+    max-width: 340px;
+
+    width: calc(100% - 32px);
+    height: 290px;
+    display: block;
+    top: 100px;
+    animation: 5s ease-in-out 0s normal none infinite running rot;
+    cursor: pointer;
+  }
+
+  &__wrapper {
+    position: relative;
+  }
+}
+
+@keyframes rot {
+  0% {
+    transform: translateX(calc(-50% - 13px)) rotate(25deg);
+  }
+
+  50% {
+    transform: translateX(calc(-50% - 13px)) rotate(-25deg);
+  }
+
+  100% {
+    transform: translateX(calc(-50% - 13px)) rotate(25deg);
+
+  }
+}

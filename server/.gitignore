@@ -1,23 +1,8 @@
 # compiled output
 /dist
 /node_modules
-node_modules
-build
-/build
-
-/.idea
-.idea
-package-lock.json
-
-/package-lock.json
-/client/package-lock.json
-/server/package-lock.json
-
-
-.env
-/client/.env
-/server/.env
-
+/loaded
+loaded
 # Logs
 logs
 *.log

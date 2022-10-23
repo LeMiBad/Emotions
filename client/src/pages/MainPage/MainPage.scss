@@ -1,0 +1,123 @@
+.main-page {
+    margin-bottom: 50px;
+
+    &__section {
+        width: 100%;
+        position: relative;
+        padding-top: 130px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    &__brain {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    &__bg {
+        display: block;
+        width: 100%;
+        height: auto;
+        transform: translateY(-35%);
+    }
+
+    &__header {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-weight: 400;
+        width: 100%;
+        font-size: 35px;
+        line-height: 33px;
+    }
+
+    &__button {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border: 0;
+        outline: 0;
+        margin: 0 auto;
+        left: 50%;
+        background: linear-gradient(92.34deg, #64D4ED 5.54%, #EA78FD 101.3%);
+        border-radius: 150px;
+        width: 260px;
+        height: 260px;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 50px;
+        background: #6cdff9;
+        box-shadow: 0 -200px 100px -120px rgb(148, 146, 236) inset;
+        animation: background 3s infinite alternate;
+        text-align: center;
+        transform: translateY(-35%);
+        text-decoration: none;
+        color: black;
+
+    }
+
+    &__arrow {
+        left: 50%;
+        transform: translateX(-50%);
+        top: -50px;
+        position: absolute;
+    }
+
+    &__sec {
+        position: relative;
+    }
+
+    &__btn {
+        cursor: pointer;
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        width: 100%;
+        display: block;
+        height: 50px;
+        border-radius: 25px;
+        border: 0;
+        outline: 0;
+        background: linear-gradient(92.34deg, #64D4ED 5.54%, #EA78FD 101.3%);
+    }
+
+    &__input {
+        font-size: 18px;
+        padding-left: 20px;
+        border-radius: 25px;
+        display: block;
+        border: 0;
+        outline: 0;
+        height: 50px;
+        width: 100%;
+        background: #EAEAEA;
+        box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.07);
+    }
+
+    &__h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        color: black;
+        margin: 0;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+
+    &__form {
+        padding: 20px 20px;
+        border-radius: 10px;
+        background-color: white;
+        z-index: 10;
+        position: relative;
+    }
+}
+
+
+@keyframes background {
+    50% {
+        background: rgb(135, 235, 200);
+        box-shadow: 0 -200px 100px -100px #EA78FD inset;
+    }
+}
